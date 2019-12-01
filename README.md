@@ -1,4 +1,4 @@
-# cordova-plugin-wkwebview-cookie-sync
+# cordova-plugin-wkwebview-save-cookie
 
 When switching to wkWebView in Cordova for iOS some plugins have the known issue that cookies won't be used properly on the very first start of the application, or every time using the iOS Simulator. In particular session cookies. This is due to a [missing proper sync between the underlying WKHTTPCookieStore and the WebView](https://stackoverflow.com/a/49534854/2757879).
 
